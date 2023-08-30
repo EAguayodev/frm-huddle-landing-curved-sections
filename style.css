@@ -38,10 +38,11 @@ header h1 {
 
 header p {
     color: #00252E;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Open Sans;
+/*     font-family: 'Open Sans', sans-serif; */
     font-size: 20px;
     font-weight: 400;
-    line-height: 23px;
+    line-height: 30px;
     text-align: center;
     margin-top: 2rem;    
     width: 600px;
