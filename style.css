@@ -345,6 +345,11 @@ footer input{
 
 
 @media(max-width: 768px) {
+    .logo{
+        width: 96px;
+        height: 16px;
+    }
+    
     .btn-free{
         width: 80px;
         height: 23.529px;
