@@ -345,9 +345,16 @@ footer input{
 
 
 @media(max-width: 768px) {
-    body {
-        scroll-behavior: none;
+    .btn-free{
+        width: 80px;
+        height: 23.529px;
     }
+
+    .btn-start{
+        width: 344px;
+        height: 40px;
+    }
+    
     .row {
         display: flex;
         flex-direction: column;
@@ -376,6 +383,21 @@ footer input{
         align-items: center;
     }
 
+    header h1{
+        font-size: 24px;
+        width: 280px;
+    }
+
+    header p{
+        width: 296px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .mock{
+        width: 279.685px;
+    }
+
     .flex {
         display: flex;
         flex-direction: column;
@@ -385,16 +407,21 @@ footer input{
 
     .growth p, .conversation p, .users p {
         text-align: center;
+        font-size: 14px;
         margin-right: 5rem;
+        width: 320px;
     }
 
     .growth h2, .conversation h2, .users h2 {
+        font-size: 20px;
         text-align: center;
         margin-right: 5rem;
     }
 
     .growth img, .conversation img, .users img {
         max-width: 100%;
+        width: 258.611px;
+        height: 211.556px;
     }
 
     .growth img {
@@ -403,6 +430,11 @@ footer input{
 
     .conversation img {
         margin-left: -0.5rem;
+    }
+
+    .community h3{
+        font-size: 24px;
+        width: 344px;
     }
 
     .flex::before {
@@ -428,7 +460,16 @@ footer input{
     }
 
     footer h3 {
+        font-size: 20px;
         margin-left: 8rem;
+    }
+
+    footer p{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        width: 320px;
     }
 
     footer > .row {
@@ -439,10 +480,14 @@ footer input{
     }
 
     footer input {
-       margin-top: 1rem;
+        width: 320px;
+        height: 48px;
+        margin-top: 1rem;
     }
 
     .btn-footer {
+        width: 160px;
+        height: 48px;
         margin: 1rem 0 0 13rem;
     }
 }
