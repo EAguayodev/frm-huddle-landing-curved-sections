@@ -437,8 +437,15 @@ footer input{
         margin-left: -0.5rem;
     }
 
-    .community h3{
+    .communtiy{
+        width: 340px;
+        gap: 40px;
+    }
+
+    .community h2{
+        text-align: center;
         font-size: 24px;
+        line-height: 36px;
         width: 344px;
     }
 
