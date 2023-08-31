@@ -504,6 +504,8 @@ footer input{
     .btn-footer {
         width: 160px;
         height: 48px;
-        margin: 1rem 0 0 13rem;
+        position: relative;
+        top: 1rem;
+        left: 10.5rem;
     }
 }
