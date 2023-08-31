@@ -413,12 +413,16 @@ footer input{
     .growth p, .conversation p, .users p {
         text-align: center;
         font-size: 14px;
+        position: relative;
+        right: 4rem;
         width: 320px;
     }
 
     .growth h2, .conversation h2, .users h2 {
         font-size: 20px;
         text-align: center;
+        position: relative;
+        right: 4rem;
     }
 
     .growth img, .conversation img, .users img {
