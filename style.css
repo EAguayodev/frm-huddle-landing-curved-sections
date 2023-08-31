@@ -471,7 +471,8 @@ footer input{
 
     footer h3 {
         font-size: 20px;
-        margin-left: 8rem;
+        position: relative;
+        right: 6.3rem;
     }
 
     footer p{
@@ -479,6 +480,8 @@ footer input{
         font-style: normal;
         font-weight: 600;
         line-height: 24px;
+        position: relative;
+        right: 1.5rem;
         width: 320px;
     }
 
