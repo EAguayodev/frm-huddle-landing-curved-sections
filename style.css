@@ -101,6 +101,22 @@ img {
     margin-top: 4rem;
 }
 
+.row h1{
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+ .icon-message{
+    width: 49px;
+    height: 50px;
+}
+
+.icon-community{
+    width: 56px;
+    height: 56px;
+}
+
 /************ GROWTH SECTION *******************/
 .growth {
     display: flex;
@@ -365,6 +381,15 @@ footer input{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .row h1{
+        font-size: 60.952px;
+    }
+
+    .icon{
+        width: 35.556px;
+        height: 35.656px;
     }
 
     .growth, .users {
