@@ -496,7 +496,7 @@ footer input{
     footer::before {
         background-image: url('./images/bg-footer-top-mobile.svg');
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
     }
 
     footer h3 {
