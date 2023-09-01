@@ -503,6 +503,7 @@ footer input{
         font-size: 20px;
         position: relative;
         right: 1.3rem;
+        top: -3rem;
     }
 
     footer p{
@@ -512,6 +513,7 @@ footer input{
         line-height: 24px;
         position: relative;
         right: 1.5rem;
+         top: -3rem;
         width: 320px;
     }
 
@@ -525,7 +527,6 @@ footer input{
     footer input {
         width: 320px;
         height: 48px;
-        margin-top: 1rem;
         position: relative;
         right: 1.5rem;
         margin-top: 1rem;
