@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: 2px solid red;
 }
 
 :root {
@@ -35,17 +31,16 @@ header {
 header h1 {
     text-align: center;
     color: #00252E;
-    font-family: Poppins;
-    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
 }
 
 header p {
     color: #00252E;
-    font-family: Open Sans;
-/*     font-family: 'Open Sans', sans-serif; */
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
@@ -88,7 +83,7 @@ img {
     background-color: var(--pink);
     color: var(--very-pale-blue);
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-top: 50px; 
     width: 400px;
     height: 80px;
@@ -102,7 +97,7 @@ img {
 }
 
 .row h1{
-    font-size: 96px;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 700;
 }
@@ -128,10 +123,10 @@ img {
 
 .growth h2 {
     margin-left: 4em;  
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .growth p {
@@ -140,7 +135,7 @@ img {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #00252E;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     line-height: 24px;
     width: 520px;
@@ -178,8 +173,8 @@ img {
 }
 
 .conversation h2 {
-    font-family: Poppins;
-    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     margin: 0 0 0 7rem;
@@ -187,8 +182,8 @@ img {
 
 .conversation p {
     font-weight: 400;
-    font-family: Open Sans;
-    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
     font-style: normal;
     line-height: 24px;
     margin: 2rem 0 0 7rem;
@@ -207,7 +202,7 @@ img {
 
 .users h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     margin: 0 0 0 9rem;
@@ -216,8 +211,8 @@ img {
 .users p {
     width: 520px;
     font-weight: 400;
-    font-family: Open Sans;
-    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
     font-style: normal;
     line-height: 24px;
     margin: 2rem 0 0 9rem;
@@ -263,15 +258,15 @@ img {
 }
 
 .community h2 {
-    font-family: Poppins;
-    font-size: 40px;
+    font-family: Poppins, sans-serif;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     margin-top: 4rem;
 }
 
 .container h1 {
-    font-size: 80px;
+    font-size: 5rem;
 }
 
 .container p {
@@ -299,16 +294,16 @@ footer::before {
 footer h3 {
     color: var(--very-pale-blue);
     margin: 1rem 0 0 3rem;
-    font-size: 24px;
-    font-family: 'Open Sans';
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
 
-footer p {
+footer .footer-description {
     color: var(--very-pale-blue);
     margin: 1rem 0 0 3rem;
-    font-family: Open Sans;
-    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
@@ -350,8 +345,8 @@ footer input{
     border: none;
     background-color: var(--pink);
     color: var(--very-pale-blue);
-    font-family: Open Sans;
-    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     width: 160px;
@@ -513,7 +508,7 @@ footer input{
         line-height: 24px;
         position: relative;
         right: 1.5rem;
-         top: -3rem;
+        top: -3rem;
         width: 320px;
     }
 
